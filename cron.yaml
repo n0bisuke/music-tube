@@ -1,0 +1,4 @@
+cron:
+- description: Get Muscit info
+  url: /get
+  schedule: every 24 hours 

@@ -1,0 +1,243 @@
+{
+    "encoding": "UTF-8", 
+    "feed": {
+        "author": [
+            {
+                "name": {
+                    "$t": "YouTube"
+                }, 
+                "uri": {
+                    "$t": "http://www.youtube.com/"
+                }
+            }
+        ], 
+        "category": [
+            {
+                "scheme": "http://schemas.google.com/g/2005#kind", 
+                "term": "http://gdata.youtube.com/schemas/2007#video"
+            }
+        ], 
+        "entry": [
+            {
+                "author": [
+                    {
+                        "name": {
+                            "$t": "松本秋花"
+                        }, 
+                        "uri": {
+                            "$t": "http://gdata.youtube.com/feeds/api/users/swpDoC8LlQGAEnfiTcIyAA"
+                        }
+                    }
+                ], 
+                "category": [
+                    {
+                        "scheme": "http://schemas.google.com/g/2005#kind", 
+                        "term": "http://gdata.youtube.com/schemas/2007#video"
+                    }, 
+                    {
+                        "label": "ブログ", 
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat", 
+                        "term": "People"
+                    }
+                ], 
+                "content": {
+                    "$t": "YouTube Captureから.", 
+                    "type": "text"
+                }, 
+                "gd$comments": {
+                    "gd$feedLink": {
+                        "countHint": 18, 
+                        "href": "http://gdata.youtube.com/feeds/api/videos/j2qFhvIhezY/comments", 
+                        "rel": "http://gdata.youtube.com/schemas/2007#comments"
+                    }
+                }, 
+                "gd$rating": {
+                    "average": 4.2529182, 
+                    "max": 5, 
+                    "min": 1, 
+                    "numRaters": 257, 
+                    "rel": "http://schemas.google.com/g/2005#overall"
+                }, 
+                "id": {
+                    "$t": "http://gdata.youtube.com/feeds/api/videos/j2qFhvIhezY"
+                }, 
+                "link": [
+                    {
+                        "href": "http://www.youtube.com/watch?v=j2qFhvIhezY&feature=youtube_gdata", 
+                        "rel": "alternate", 
+                        "type": "text/html"
+                    }, 
+                    {
+                        "href": "http://gdata.youtube.com/feeds/api/videos/j2qFhvIhezY/related", 
+                        "rel": "http://gdata.youtube.com/schemas/2007#video.related", 
+                        "type": "application/atom+xml"
+                    }, 
+                    {
+                        "href": "http://m.youtube.com/details?v=j2qFhvIhezY", 
+                        "rel": "http://gdata.youtube.com/schemas/2007#mobile", 
+                        "type": "text/html"
+                    }, 
+                    {
+                        "href": "http://gdata.youtube.com/feeds/api/videos/j2qFhvIhezY", 
+                        "rel": "self", 
+                        "type": "application/atom+xml"
+                    }
+                ], 
+                "media$group": {
+                    "media$category": [
+                        {
+                            "$t": "People", 
+                            "label": "ブログ", 
+                            "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                        }
+                    ], 
+                    "media$content": [
+                        {
+                            "duration": 205, 
+                            "expression": "full", 
+                            "isDefault": "true", 
+                            "medium": "video", 
+                            "type": "application/x-shockwave-flash", 
+                            "url": "http://www.youtube.com/v/j2qFhvIhezY?version=3&f=videos&app=youtube_gdata", 
+                            "yt$format": 5
+                        }, 
+                        {
+                            "duration": 205, 
+                            "expression": "full", 
+                            "medium": "video", 
+                            "type": "video/3gpp", 
+                            "url": "rtsp://r5---sn-o097zues.c.youtube.com/CiILENy73wIaGQk2eyHyhoVqjxMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp", 
+                            "yt$format": 1
+                        }, 
+                        {
+                            "duration": 205, 
+                            "expression": "full", 
+                            "medium": "video", 
+                            "type": "video/3gpp", 
+                            "url": "rtsp://r5---sn-o097zues.c.youtube.com/CiILENy73wIaGQk2eyHyhoVqjxMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp", 
+                            "yt$format": 6
+                        }
+                    ], 
+                    "media$description": {
+                        "$t": "YouTube Captureから.", 
+                        "type": "plain"
+                    }, 
+                    "media$keywords": {}, 
+                    "media$player": [
+                        {
+                            "url": "http://www.youtube.com/watch?v=j2qFhvIhezY&feature=youtube_gdata_player"
+                        }
+                    ], 
+                    "media$thumbnail": [
+                        {
+                            "height": 360, 
+                            "time": "00:01:42.500", 
+                            "url": "http://i.ytimg.com/vi/j2qFhvIhezY/0.jpg", 
+                            "width": 480
+                        }, 
+                        {
+                            "height": 90, 
+                            "time": "00:00:51.250", 
+                            "url": "http://i.ytimg.com/vi/j2qFhvIhezY/1.jpg", 
+                            "width": 120
+                        }, 
+                        {
+                            "height": 90, 
+                            "time": "00:01:42.500", 
+                            "url": "http://i.ytimg.com/vi/j2qFhvIhezY/2.jpg", 
+                            "width": 120
+                        }, 
+                        {
+                            "height": 90, 
+                            "time": "00:02:33.750", 
+                            "url": "http://i.ytimg.com/vi/j2qFhvIhezY/3.jpg", 
+                            "width": 120
+                        }
+                    ], 
+                    "media$title": {
+                        "$t": "舞祭組/棚からぼたもち/PON", 
+                        "type": "plain"
+                    }, 
+                    "yt$duration": {
+                        "seconds": "205"
+                    }
+                }, 
+                "published": {
+                    "$t": "2013-12-12T10:01:54.000Z"
+                }, 
+                "title": {
+                    "$t": "舞祭組/棚からぼたもち/PON", 
+                    "type": "text"
+                }, 
+                "updated": {
+                    "$t": "2014-01-04T20:34:29.000Z"
+                }, 
+                "yt$hd": {}, 
+                "yt$statistics": {
+                    "favoriteCount": "0", 
+                    "viewCount": "258095"
+                }
+            }
+        ], 
+        "generator": {
+            "$t": "YouTube data API", 
+            "uri": "http://gdata.youtube.com", 
+            "version": "2.1"
+        }, 
+        "id": {
+            "$t": "http://gdata.youtube.com/feeds/api/videos"
+        }, 
+        "link": [
+            {
+                "href": "http://www.youtube.com", 
+                "rel": "alternate", 
+                "type": "text/html"
+            }, 
+            {
+                "href": "http://gdata.youtube.com/feeds/api/videos", 
+                "rel": "http://schemas.google.com/g/2005#feed", 
+                "type": "application/atom+xml"
+            }, 
+            {
+                "href": "http://gdata.youtube.com/feeds/api/videos/batch", 
+                "rel": "http://schemas.google.com/g/2005#batch", 
+                "type": "application/atom+xml"
+            }, 
+            {
+                "href": "http://gdata.youtube.com/feeds/api/videos?alt=json&start-index=1&max-results=1&vq=%E8%88%9E%E7%A5%AD%E7%B5%84+%E6%A3%9A%E3%81%8B%E3%82%89%E3%81%BC%E3%81%9F%E3%82%82%E3%81%A1&orderby=relevance", 
+                "rel": "self", 
+                "type": "application/atom+xml"
+            }, 
+            {
+                "href": "http://gdata.youtube.com/feeds/api/videos?alt=json&start-index=2&max-results=1&vq=%E8%88%9E%E7%A5%AD%E7%B5%84+%E6%A3%9A%E3%81%8B%E3%82%89%E3%81%BC%E3%81%9F%E3%82%82%E3%81%A1&orderby=relevance", 
+                "rel": "next", 
+                "type": "application/atom+xml"
+            }
+        ], 
+        "logo": {
+            "$t": "http://www.gstatic.com/youtube/img/logo.png"
+        }, 
+        "openSearch$itemsPerPage": {
+            "$t": 1
+        }, 
+        "openSearch$startIndex": {
+            "$t": 1
+        }, 
+        "openSearch$totalResults": {
+            "$t": 1098
+        }, 
+        "title": {
+            "$t": "Videos matching: 舞祭組 棚からぼたもち", 
+            "type": "text"
+        }, 
+        "updated": {
+            "$t": "2014-01-06T12:55:26.893Z"
+        }, 
+        "xmlns": "http://www.w3.org/2005/Atom", 
+        "xmlns$gd": "http://schemas.google.com/g/2005", 
+        "xmlns$media": "http://search.yahoo.com/mrss/", 
+        "xmlns$openSearch": "http://a9.com/-/spec/opensearchrss/1.0/", 
+        "xmlns$yt": "http://gdata.youtube.com/schemas/2007"
+    }, 
+    "version": "1.0"
+}
