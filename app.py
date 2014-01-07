@@ -6,6 +6,8 @@ from google.appengine.ext.webapp import template
 from google.appengine.ext.webapp.util import run_wsgi_app
 from controllers.tube import *
 from controllers.tube_get_oricon import *
+from controllers.tweet import *
+from controllers.auth import *
 
 #404 Not Found Error
 class Error(webapp2.RequestHandler):
@@ -20,6 +22,9 @@ app = webapp2.WSGIApplication([
     ('/sign', Guestbook),
     ('/get', GetOrikon),
     ('/show', ShowOrikon),
+    ('/login', Auth),
+    #('/oauth', Oauth),
+    ('/n0bisuke_dev_bot_tweet', BotTweetHandler),
     ('/.*', Error),
 ], debug=True)
 
